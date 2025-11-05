@@ -1,0 +1,10 @@
+# Cloudflare Pages Redirects Configuration
+# Ensures React Router works properly (SPA routing)
+
+# All routes should serve index.html for client-side routing
+/*    /index.html   200
+
+# This tells Cloudflare Pages to:
+# 1. Try to serve the requested file first
+# 2. If not found, serve index.html instead
+# 3. Return 200 status (not 404) so React Router can handle it

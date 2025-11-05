@@ -1,0 +1,25 @@
+# Cloudflare Pages Configuration
+
+# This file is optional - Cloudflare Pages will auto-detect Vite
+# But you can customize settings here if needed
+
+# Build configuration
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Environment variables (set in Cloudflare Dashboard)
+# VITE_SUPABASE_URL
+# VITE_SUPABASE_ANON_KEY
+
+# Headers for security and caching
+# See public/_headers file
+
+# Redirects for SPA routing
+# See public/_redirects file
+
+# Build caching (enabled by default)
+# Speeds up builds by caching node_modules
+
+# Node version
+# Set in Cloudflare Dashboard: NODE_VERSION = 18
